@@ -1,0 +1,9 @@
+.header{
+    position: relative;
+}
+#navbarSupportedContent ul{
+    margin-left: 930px;
+}
+.nav-item{
+    margin-right: 20px;
+}

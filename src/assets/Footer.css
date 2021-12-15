@@ -1,0 +1,39 @@
+footer {
+    position: fixed;
+    height: 150px;
+    bottom: 0;
+    width: 100%;
+}
+
+section{
+    position: relative;
+}
+
+hr{
+    width: 94%;
+    margin-left: 3%;
+}
+
+.socialBtns{
+    position: absolute;
+}
+
+.mail{
+    position: absolute;
+    right: 3%;
+}
+
+.aws-btn {
+--button-default-height: 41px;
+--button-default-font-size: 16px;
+--button-default-border-radius: 10px;
+--button-horizontal-padding: 15px;
+--button-raise-level: 4px;
+--button-hover-pressure: 2.5;
+--transform-speed: 0.15s;
+--button-primary-color: #212529;
+--button-primary-color-dark: #45484b;
+--button-primary-color-light: #fff;
+--button-primary-color-hover: #212529;
+--button-primary-border: none;
+}
