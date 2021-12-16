@@ -13,19 +13,19 @@ function Header(){
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                     
                     <li className="nav-item">
-                    <NavLink className="nav-link active" aria-current="page" to="/home">Home</NavLink>
+                    <NavLink className="nav-link" aria-current="page" to="/home">Home</NavLink>
                     </li>
                     
                     <li className="nav-item">
-                    <NavLink className="nav-link active" aria-current="page" to="/resume">Resume</NavLink>
+                    <NavLink className="nav-link" aria-current="page" to="/resume">Resume</NavLink>
                     </li>
                     
                     <li className="nav-item">
-                    <NavLink className="nav-link active" aria-current="page" to="/projects">Projects</NavLink>
+                    <NavLink className="nav-link" aria-current="page" to="/projects">Projects</NavLink>
                     </li>
                     
                     <li className="nav-item">
-                    <NavLink className="nav-link active" aria-current="page" to="/blog">Blog</NavLink>
+                    <NavLink className="nav-link" aria-current="page" to="/blog">Blog</NavLink>
                     </li>
                 </ul>
                 </div>

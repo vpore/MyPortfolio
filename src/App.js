@@ -1,12 +1,12 @@
 import {Route, Redirect, Switch} from 'react-router-dom';
 
 import './App.css';
-import Header from "./MyComponents/Header";
-import Home from "./MyComponents/Home";
-import Footer from "./MyComponents/Footer";
-import Blog from "./MyComponents/Blog";
-import Resume from "./MyComponents/Resume";
-import Projects from "./MyComponents/Projects";
+import Header from "./components/Header";
+import Home from "./pages/Home";
+import Footer from "./components/Footer";
+import Blog from "./pages/Blog";
+import Resume from "./pages/Resume";
+import Projects from "./pages/Projects";
 import React from 'react';
 
 function App() {
