@@ -17,7 +17,7 @@ function Header(){
                     </li>
                     
                     <li className="nav-item">
-                    <NavLink className="nav-link" aria-current="page" to="/resume">Resume</NavLink>
+                    <a className="nav-link" aria-current="page" href="https://drive.google.com/file/d/1Z9U4hhwNPyWLRd-zzPwCSKxINY0ggKYY/view?usp=sharing" target='_blank' rel='noreferrer'>Resume</a>
                     </li>
                     
                     <li className="nav-item">
@@ -25,7 +25,7 @@ function Header(){
                     </li>
                     
                     <li className="nav-item">
-                    <NavLink className="nav-link" aria-current="page" to="/blog">Blog</NavLink>
+                    <a className="nav-link" aria-current="page" href="https://vaibhavipore.hashnode.dev/" target='_blank' rel='noreferrer'>Blog</a>
                     </li>
                 </ul>
                 </div>
