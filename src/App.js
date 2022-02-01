@@ -7,12 +7,14 @@ import Footer from "./components/Footer";
 //import Blog from "./pages/Blog";
 //import Resume from "./pages/Resume";
 import Projects from "./pages/Projects";
+import ProjectDetail from './pages/ProjectDetail';
 import React from 'react';
 
 function App() {
   return (
     <>
       <Header/>
+      
       <Switch>
         <Route exact path='/'>
           <Redirect to='/home'/>
@@ -20,8 +22,11 @@ function App() {
         <Route path='/home'>
           <Home/>
         </Route>
-        <Route path='/projects'>
+        <Route exact path='/projects'>
           <Projects/>
+        </Route>
+        <Route exact path='/projects/:projectName'>
+          <ProjectDetail/>
         </Route>
       </Switch>
 
