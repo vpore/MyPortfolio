@@ -1,3 +1,13 @@
 .projects{
-    margin-left: 100px;
+    background-color: rgb(224, 224, 224);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.projectPic{
+    width: 300px;
+    height: 150px;
 }
