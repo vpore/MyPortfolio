@@ -8,7 +8,7 @@ const ProjectDetail = () => {
 
     return(
         <>
-            <h1>{projectName}</h1>
+            <h1>{projectName.toUpperCase()}</h1>
         </>
     );
 };
