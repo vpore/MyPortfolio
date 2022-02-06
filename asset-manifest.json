@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/MyPortfolio/static/css/main.fa484996.chunk.css",
-    "main.js": "/MyPortfolio/static/js/main.68505a5b.chunk.js",
-    "main.js.map": "/MyPortfolio/static/js/main.68505a5b.chunk.js.map",
+    "main.js": "/MyPortfolio/static/js/main.ce00a010.chunk.js",
+    "main.js.map": "/MyPortfolio/static/js/main.ce00a010.chunk.js.map",
     "runtime-main.js": "/MyPortfolio/static/js/runtime-main.3928a92b.js",
     "runtime-main.js.map": "/MyPortfolio/static/js/runtime-main.3928a92b.js.map",
     "static/css/2.d89d3188.chunk.css": "/MyPortfolio/static/css/2.d89d3188.chunk.css",
@@ -19,14 +19,13 @@
     "static/media/TravelPro.860bba14.png": "/MyPortfolio/static/media/TravelPro.860bba14.png",
     "static/media/crossword01.e3d9110d.png": "/MyPortfolio/static/media/crossword01.e3d9110d.png",
     "static/media/homePic.aee3578e.svg": "/MyPortfolio/static/media/homePic.aee3578e.svg",
-    "static/media/notFound.39b4fb3d.svg": "/MyPortfolio/static/media/notFound.39b4fb3d.svg",
-    "static/media/rebooks.6fbd9c7f.gif": "/MyPortfolio/static/media/rebooks.6fbd9c7f.gif"
+    "static/media/notFound.39b4fb3d.svg": "/MyPortfolio/static/media/notFound.39b4fb3d.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.3928a92b.js",
     "static/css/2.d89d3188.chunk.css",
     "static/js/2.24140ad8.chunk.js",
     "static/css/main.fa484996.chunk.css",
-    "static/js/main.68505a5b.chunk.js"
+    "static/js/main.ce00a010.chunk.js"
   ]
 }
