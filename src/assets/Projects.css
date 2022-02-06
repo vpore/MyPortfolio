@@ -8,6 +8,24 @@ a{
 }
 
 .projectPic{
-    width: 300px;
-    height: 150px;
+    width: 450px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.video{
+    height: 400px;
+    position: relative;
+    left: 150px;
+}
+
+.projectDesc{
+    float: right;
+    position: relative;
+    right: 100px;
+    bottom: 50px;
+}
+
+li{
+    margin-top: 20px;
 }

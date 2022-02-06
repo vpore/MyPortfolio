@@ -1,13 +1,12 @@
-.content{
-    position: relative;
-}
-
 .intro{
-    margin-left: 45%;
-    margin-top: 7%;
+    float: right;
+    position: relative;
+    top: 150px;
+    right: 260px
 }
 
 .homePic{
-    height: 528px;
-    position: absolute;
+    height: 529px;
+    width: 800px;
+    float: left;
 }
