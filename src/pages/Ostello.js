@@ -1,5 +1,5 @@
 
-import ostello from '../assets/rebooks.gif'
+//import ostello from '../assets/rebooks.gif'
 
 const Ostello = () => {
     return(
@@ -8,7 +8,7 @@ const Ostello = () => {
 
                 <h4 className="text-center mb-5">Education Marketplace - One stop for all Academic needs</h4>
 
-                <img src={ostello} alt="Ostello-Video-Demo" className="video ms-5"/>
+                {/* <img src={ostello} alt="Ostello-Video-Demo" className="video ms-5"/> */}
 
                 <div className='projectDesc'>
                     <p className="mt-5">Ostello is designed for an interactive peer-to-peer social community based marketplace which gives educational guidance.<br/></p>

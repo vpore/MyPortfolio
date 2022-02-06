@@ -19,13 +19,13 @@ function App() {
         <Route exact path='/'>
           <Redirect to='/MyPortfolio'/>
         </Route>
-        <Route path='/MyPortfolio'>
+        <Route exact path='/MyPortfolio'>
           <Home/>
         </Route>
-        <Route exact path='/projects'>
+        <Route exact path='/MyPortfolio/projects'>
           <Projects/>
         </Route>
-        <Route exact path='/projects/:projectName'>
+        <Route exact path='/MyPortfolio/projects/:projectName'>
           <ProjectDetail/>
         </Route>
       </Switch>

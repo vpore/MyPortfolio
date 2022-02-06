@@ -1,5 +1,5 @@
 
-import rebooks from '../assets/rebooks.gif'
+//import rebooks from '../assets/rebooks.gif'
 
 const ReBooks = () => {
     return(
@@ -8,7 +8,7 @@ const ReBooks = () => {
 
                 <h4 className='text-center mb-5'> </h4>
 
-                <img src={rebooks} className='video ms-5' alt='ReBooks-Video-Demo'/>
+                {/* <img src={rebooks} className='video ms-5' alt='ReBooks-Video-Demo'/> */}
 
                 <div className='projectDesc mt-5'>
                     <p>The main aim of ReBooks is to reuse textbooks by connecting students - who are willing to sell their old textbooks with<br/>students who are in need of them.</p>
