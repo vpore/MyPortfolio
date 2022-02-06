@@ -16,10 +16,10 @@ function App() {
       <Header/>
       
       <Switch>
-        <Route exact path='/MyPortfolio/home'>
-          <Redirect to='/home'/>
+        <Route exact path='/'>
+          <Redirect to='/MyPortfolio'/>
         </Route>
-        <Route path='/home'>
+        <Route path='/MyPortfolio'>
           <Home/>
         </Route>
         <Route exact path='/projects'>
