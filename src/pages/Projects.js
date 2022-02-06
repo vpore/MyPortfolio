@@ -14,7 +14,7 @@ function Projects(){
                 <div className='col shadow-sm p-3 mb-5 me-3 projects rounded text-center'>
                     <img src={crossword} className='mb-3 projectPic' alt='projectPic' style={{width: '250px'}}/> <br/>
                     <NavLink to={`/MyPortfolio/projects/crossword`}>CrossWord</NavLink> <br/>
-                    <a href='https://vpore.github.io/CrossWord/'>View Project<i className='fa fa-paw fa ps-1'/></a>
+                    <a href='https://vpore.github.io/CrossWord/' target='_blank' rel="noreferrer">View Project<i className='fa fa-paw fa ps-1'/></a>
                 </div>
                 <div className='col shadow-sm p-3 mb-5 me-3 projects rounded text-center'>
                     <img src={reefood} className='projectPic mb-3' alt='projectPic'/> <br/>
@@ -24,7 +24,7 @@ function Projects(){
                 <div className='col shadow-sm p-3 mb-5 projects rounded text-center'>
                     <img src={studentwiki} className='mb-3 projectPic' alt='projectPic' style={{width: '450px'}}/> <br/>
                     <NavLink to={`/MyPortfolio/projects/studentwiki`}>StudentWiki</NavLink> <br/>
-                    <a href='https://studentwiki.netlify.app/'>View Project<i className='fa fa-paw fa ps-1'/></a>
+                    <a href='https://studentwiki.netlify.app/' target='_blank' rel="noreferrer">View Project<i className='fa fa-paw fa ps-1'/></a>
                 </div>
             </div>
             <div className='mx-3' style={{width: '1000px'}}>
