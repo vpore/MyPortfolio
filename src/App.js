@@ -16,7 +16,7 @@ function App() {
       <Header/>
       
       <Switch>
-        <Route exact path='/'>
+        <Route exact path='/MyPortfolio'>
           <Redirect to='/home'/>
         </Route>
         <Route path='/home'>
