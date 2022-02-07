@@ -9,7 +9,7 @@ function Footer(){
     <footer className="footer">
       <div>
         <hr/>
-        <section className="mt-4">
+        <section className="mt-3">
           
           <div className="socialBtns">
             <p className="ms-5 fw-bold">Get Connected with Me ^^</p>

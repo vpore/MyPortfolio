@@ -11,7 +11,7 @@ function Home(){
             <div className="jumbotron intro">
                 <h1 className="display-3 fw-bolder">Vaibhavi Pore</h1>
                 <p className="lead">A Front-End Web Developer &amp; UI/UX Designer<br/>
-                I enjoy learning and love to build projects...</p>        
+                In love with Learning. . .</p>        
             </div>
         </>
     )

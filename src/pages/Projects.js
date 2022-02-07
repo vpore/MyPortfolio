@@ -19,7 +19,7 @@ function Projects(){
                 <div className='col shadow-sm p-3 mb-5 me-3 projects rounded text-center'>
                     <img src={reefood} className='projectPic mb-3' alt='projectPic'/> <br/>
                     <NavLink to={`/MyPortfolio/projects/reefood`}>ReeFood</NavLink> <br/>
-                    <a href='www.google.com'>View Project<i className='fa fa-paw fa ps-1'/></a>
+                    {/* <a href='#'>View Project<i className='fa fa-paw fa ps-1'/></a> */}
                 </div>
                 <div className='col shadow-sm p-3 mb-5 projects rounded text-center'>
                     <img src={studentwiki} className='mb-3 projectPic' alt='projectPic' style={{width: '450px'}}/> <br/>

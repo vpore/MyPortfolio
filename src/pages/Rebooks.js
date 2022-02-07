@@ -7,6 +7,7 @@ const ReBooks = () => {
             <div>
 
                 <h4 className='text-center mb-5'> </h4>
+                <a href='https://www.figma.com/file/JT7sj7XkopeFrjYvnjlODZ/ReBooks?node-id=0%3A1' target='_blank' rel="noreferrer" className="designLink">View Design<i className="fa fa-magic fa-lg ps-1"></i></a>
 
                 {/* <img src={rebooks} className='video ms-5' alt='ReBooks-Video-Demo'/> */}
 
