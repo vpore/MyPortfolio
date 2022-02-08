@@ -4,6 +4,7 @@ import Ostello from "./Ostello";
 import ReBooks from "./Rebooks";
 import NotFound from "../components/NotFound";
 import RestrOrder from "./RestrOrder";
+import CrossWord from "./Crossword";
 
 const ProjectDetail = () => {
     
@@ -15,8 +16,12 @@ const ProjectDetail = () => {
         content = <Ostello/>
     }
 
-    else if(projectName === 'crossword' || projectName === 'travelpro' || projectName === 'studentwiki' || projectName === 'reefood'){
+    else if(projectName === 'travelpro' || projectName === 'studentwiki' || projectName === 'reefood'){
         content = <NotFound/>
+    }
+
+    else if(projectName === 'crossword'){
+        content = <CrossWord/>
     }
 
     else if(projectName === 'rebooks'){

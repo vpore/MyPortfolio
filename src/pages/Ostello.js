@@ -13,7 +13,7 @@ const Ostello = () => {
 
                 <div className='projectDesc'>
                     <p className="mt-5">Ostello is designed for an interactive peer-to-peer social community based marketplace which gives educational guidance.<br/></p>
-                    <h3>Features of the app</h3>
+                    <h3>Features</h3>
                     <ul>
                         <li><h5>Dashboard</h5>User will have access to various informative videos, articles, podcasts.</li>
                         <li><h5>Ostello Social</h5>User will get daily updates related to educational guidance(ofc :p) from the instructors which they follow.</li>

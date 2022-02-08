@@ -39,7 +39,7 @@ function Projects(){
                     <NavLink to={`/MyPortfolio/projects/ostello`}>Ostello</NavLink>
                 </div>
                 <div className='col shadow-sm p-3 mb-5 me-3 projects rounded text-center'>
-                    <NavLink to={`/MyPortfolio/projects/restrorder`}>RestrOrder</NavLink>
+                    <a href='https://www.figma.com/file/nnP0dWrTcY5uH1Ei3eJ9Ac/RestrOrder?node-id=0%3A1' target='_blank' rel="noreferrer">RestrOrder</a>
                 </div>
                 <div className='col shadow-sm p-3 mb-5 me-3 projects rounded text-center'>
                     <NavLink to={`/MyPortfolio/projects/rebooks`}>ReBooks</NavLink>
