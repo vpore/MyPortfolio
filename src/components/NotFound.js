@@ -6,7 +6,7 @@ const NotFound = () => {
         <>
             <div className="text-center mt-5">
                 <img src={NotFoundPic} style={{height: '300px'}} alt='Not-Found-Pic'/>
-                <p className="mt-4">&lt; The documentation will come soon... &gt;</p>
+                <p className="mt-4">&lt; This page doesn't exist &gt;</p>
             </div>
         </>
     );

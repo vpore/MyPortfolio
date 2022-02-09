@@ -4,7 +4,6 @@ import { NavLink } from 'react-router-dom';
 import crossword from '../assets/crossword01.png'
 import reefood from '../assets/ReeFood.png'
 import studentwiki from '../assets/StudentWiki.png'
-import travelpro from '../assets/TravelPro.png'
 
 function Projects(){
     return (
@@ -13,8 +12,7 @@ function Projects(){
             <div className='row mx-3 mt-5'>
                 <div className='col shadow-sm p-3 mb-5 me-3 projects rounded text-center'>
                     <img src={crossword} className='mb-3 projectPic' alt='projectPic' style={{width: '250px'}}/> <br/>
-                    <NavLink to={`/MyPortfolio/projects/crossword`}>CrossWord</NavLink> <br/>
-                    <a href='https://vpore.github.io/CrossWord/' target='_blank' rel="noreferrer">View Project<i className='fa fa-paw fa ps-1'/></a>
+                    <a href='https://vpore.github.io/CrossWord/' target='_blank' rel="noreferrer">CrossWord</a> <br/>
                 </div>
                 <div className='col shadow-sm p-3 mb-5 me-3 projects rounded text-center'>
                     <img src={reefood} className='projectPic mb-3' alt='projectPic'/> <br/>
@@ -27,9 +25,9 @@ function Projects(){
                     <a href='https://studentwiki.netlify.app/' target='_blank' rel="noreferrer">View Project<i className='fa fa-paw fa ps-1'/></a>
                 </div>
             </div>
-            <div className='mx-3' style={{width: '1000px'}}>
+            <div className='mx-3' style={{width: '500px'}}>
                 <div className='shadow-sm p-3 mb-5 me-3 projects rounded text-center'>
-                    <img src={travelpro}  className='mb-3 projectPic' alt='projectPic' style={{width: '950px'}}/> <br/>
+                    
                     <NavLink to={`/MyPortfolio/projects/travelpro`}>TravelPro</NavLink>
                 </div>
             </div>

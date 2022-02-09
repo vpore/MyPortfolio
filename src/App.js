@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 //import Resume from "./pages/Resume";
 import Projects from "./pages/Projects";
 import ProjectDetail from './pages/ProjectDetail';
+import NotFound from "./components/NotFound"
 import React from 'react';
 
 function App() {
@@ -27,6 +28,9 @@ function App() {
         </Route>
         <Route exact path='/MyPortfolio/projects/:projectName'>
           <ProjectDetail/>
+        </Route>
+        <Route exact path='*'>
+          <NotFound/>
         </Route>
       </Switch>
 

@@ -2,9 +2,10 @@ import { useParams } from "react-router-dom";
 import '../assets/Projects.css'
 import Ostello from "./Ostello";
 import ReBooks from "./Rebooks";
-import NotFound from "../components/NotFound";
 import RestrOrder from "./RestrOrder";
 import CrossWord from "./Crossword";
+import ReeFood from "./ReeFood";
+import TravelPro from "./TravelPro";
 
 const ProjectDetail = () => {
     
@@ -16,12 +17,20 @@ const ProjectDetail = () => {
         content = <Ostello/>
     }
 
-    else if(projectName === 'travelpro' || projectName === 'studentwiki' || projectName === 'reefood'){
-        content = <NotFound/>
+    else if(projectName === 'travelpro'){
+        content = <TravelPro/>
+    }
+
+    else if(projectName === 'studentwiki'){
+        content = '';
     }
 
     else if(projectName === 'crossword'){
         content = <CrossWord/>
+    }
+
+    else if(projectName === 'reefood'){
+        content = <ReeFood/>
     }
 
     else if(projectName === 'rebooks'){

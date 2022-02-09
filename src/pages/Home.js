@@ -10,8 +10,7 @@ function Home(){
             </div>
             <div className="jumbotron intro">
                 <h1 className="display-3 fw-bolder">Vaibhavi Pore</h1>
-                <p className="lead">A Front-End Web Developer &amp; UI/UX Designer<br/>
-                In love with Learning. . .</p>        
+                <p className="lead text-center">A Front-End Web Developer<br/></p>        
             </div>
         </>
     )
