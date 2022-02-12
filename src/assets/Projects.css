@@ -34,3 +34,11 @@ li{
     left: 150px;
     position: relative;
 }
+
+.caption{
+    text-align: center;
+}
+
+.output{
+    margin-top: 50px;
+}

@@ -12,17 +12,15 @@ function Projects(){
             <div className='row mx-3 mt-5'>
                 <div className='col shadow-sm p-3 mb-5 me-3 projects rounded text-center'>
                     <img src={crossword} className='mb-3 projectPic' alt='projectPic' style={{width: '250px'}}/> <br/>
-                    <a href='https://vpore.github.io/CrossWord/' target='_blank' rel="noreferrer">CrossWord</a> <br/>
+                    <a href='https://vpore.github.io/CrossWord/' target='_blank' rel="noreferrer">CrossWord</a>
                 </div>
                 <div className='col shadow-sm p-3 mb-5 me-3 projects rounded text-center'>
                     <img src={reefood} className='projectPic mb-3' alt='projectPic'/> <br/>
-                    <NavLink to={`/MyPortfolio/projects/reefood`}>ReeFood</NavLink> <br/>
-                    {/* <a href='#'>View Project<i className='fa fa-paw fa ps-1'/></a> */}
+                    <a href='https://vpore.github.io/ReeFood/' target='_blank' rel="noreferrer">ReeFood</a>
                 </div>
                 <div className='col shadow-sm p-3 mb-5 projects rounded text-center'>
                     <img src={studentwiki} className='mb-3 projectPic' alt='projectPic' style={{width: '450px'}}/> <br/>
-                    <NavLink to={`/MyPortfolio/projects/studentwiki`}>StudentWiki</NavLink> <br/>
-                    <a href='https://studentwiki.netlify.app/' target='_blank' rel="noreferrer">View Project<i className='fa fa-paw fa ps-1'/></a>
+                    <a href='https://studentwiki.netlify.app/' target='_blank' rel="noreferrer">StudentWiki</a>
                 </div>
             </div>
             <div className='mx-3' style={{width: '500px'}}>
