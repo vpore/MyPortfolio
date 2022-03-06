@@ -1,5 +1,4 @@
 footer {
-    position: relative;
     height: 150px;
     bottom: 0px;
     width: 100%;
@@ -15,12 +14,16 @@ hr{
 }
 
 .socialBtns{
-    position: absolute;
+    float: left;
 }
 
 .mail{
-    position: absolute;
-    right: 3%;
+    float: right;
+    margin-right: 3%;
+}
+
+.quote{
+    clear: both;
 }
 
 .aws-btn {

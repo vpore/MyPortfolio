@@ -18,9 +18,12 @@ function Footer(){
 
           <div className="mail">
             <p className="fw-bold">Drop me a Mail at:</p>
-            <p>porevaibhavi5@gmail.com</p>
+            <a href='mailto:porevaibhavi5@gmail.com'>porevaibhavi5@gmail.com</a>
           </div>
 
+          <div className='quote text-center'>
+            <p>"Connect the dots <em>Backward . . .</em>"</p>
+          </div>
         </section>
       </div>
     </footer>
