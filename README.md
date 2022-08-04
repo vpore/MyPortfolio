@@ -1,2 +1,2 @@
 # MyPortfolio
-My Portfolio developed using HTML, CSS, JS, React, Bootstrap (WIP)
+My Portfolio developed using HTML, CSS, JS, React, Bootstrap
